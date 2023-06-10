@@ -6,7 +6,7 @@ const App = () => {
   let [gender, setGender] = useState("");
   return (
     <div>
-        <h1>Select your gender:</h1>
+        <h2>Select your gender:</h2>
         <input 
         type="radio"
         name="gender"
