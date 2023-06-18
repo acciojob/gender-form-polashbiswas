@@ -22,6 +22,7 @@ const App = () => {
         id="female"
         onChange={(e) => setGender(e.target.value)}
          />
+         
          <label forHTML = "female">Female</label>
          {
           gender === "Male" &&
